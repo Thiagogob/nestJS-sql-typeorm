@@ -1,4 +1,3 @@
-Based on the structure you provided, here is a professional README file for your project. It highlights the key features you've implemented and the technologies you've used, making it perfect for your portfolio.
 
 <br>
 
