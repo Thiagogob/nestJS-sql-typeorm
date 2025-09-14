@@ -1,4 +1,4 @@
-import { Column, Entity, JoinColumn, OneToMany, OneToOne, PrimaryGeneratedColumn } from "typeorm";
+import { Column, CreateDateColumn, Entity, JoinColumn, OneToMany, OneToOne, PrimaryGeneratedColumn } from "typeorm";
 import { Profile } from "./Profile";
 import { Post } from "./Post";
 
@@ -10,7 +10,7 @@ export class User {
   @Column()
   username: string;
 
-  @Column()
+  @CreateDateColumn()
   createdAt: Date;
 
   @Column({ nullable: true})
